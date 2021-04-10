@@ -1,0 +1,83 @@
+body {
+    cursor: auto;
+    font-family: "Escalator","Nunito Sans","Noto Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1.5;
+}
+
+:root {
+    --accent1: #3EB1C8;
+    --accent2: #ECA154;
+    --accent3: #B15533;
+    --accent4: #D29F13;
+    --accent5: #D592AA;
+    --accent6: #99D6EA;
+}
+
+.container {
+    max-width: 1140px;
+    min-width: 1140px;
+}
+
+.logo {
+    max-width: 33.3333%;
+}
+
+.logo svg {
+    width: 100%;
+    fill: #006341;
+}
+
+.text-sm {
+    font-size: 15px;
+}
+
+.search-bar {
+    height: 50px;
+}
+
+.search-bar input {
+    border-radius: 1000px 0 0 1000px;
+    padding-left: 1rem;
+    width: 95%;
+    height: 100%;
+    outline: none;
+}
+
+.search-bar button {
+    width: 5%;
+    height: 100%;
+    border-radius: 0 1000px 1000px 0;
+}
+
+.nav {
+    cursor: pointer;
+}
+
+.main {
+    background-image: url("https://www.uncommongoods.com/images/hp/B/A1_XL_20210329_1680px.jpg");
+    height: 500px;
+}
+
+.main--inner {
+    width: 35%;
+    float: right;
+    margin: 13rem 0;
+}
+
+.text-lg {
+    font-size: 20px;
+}
+
+.main-button {
+    background-color: #3EB1C8;
+    max-width: 170px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.main-button a {
+    color: inherit;
+}
